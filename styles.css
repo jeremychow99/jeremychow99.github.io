@@ -1,0 +1,9 @@
+body {
+  text-align: center;
+  margin: auto;
+  width: 50%;
+  background-color: rgb(29, 29, 71);
+  color: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
