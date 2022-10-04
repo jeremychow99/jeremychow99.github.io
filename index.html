@@ -5,23 +5,149 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jeremy's Site</title>
+    <title>Jeremy's Personal Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <h1>Jeremy Chow's Site</h1>
-    <p> Hello, my name is Jeremy.<br><br>
-        <img src="images/IMG_2580.jpg" width="200"><br>
+    <div id="navdiv">
+        <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand" href="#">Jeremy's Personal Page</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div class="container text-center" id="main-container">
+        <div class="row">
+            <h1>Hello there!</h1>
+            <div class="col-9" id="self-intro">
+
+                I am a year 2 information systems major at SMU School of Computing of Information Systems. I aspire to be a software engineer.
+                My interests include software development & design, data anlytics and cloud computing. During my free time I watch tech-related videos, play video games, or go drinking with my friends.
+            </div>
+            <div class="col-3">
+                <img id="profile-img" src="images/IMG_2580.jpg" width="200">
+            </div>
+        </div>
+
         <br>
-        I am a sophomore at SMU SCIS. I want to be a FAANG software engineer and earn 10 million dollars 🤑.
-        <br>
-        <br>
-        I like Tokyo, Japan 🇯🇵.
-        <br>
-        <br>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/6DQxRQb9dCE?&autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </p>
+        <div id="skill-container">
+            <row class="skillrow">
+                <div class="col skillheader">Languages & Frameworks:</div>
+                <div class="col firstskillrow">
+                    <img
+                        src="https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white">
+                    <img
+                        src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white">
+                    <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white">
+                    <img
+                        src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white">
+
+
+                </div>
+                <div class="col skills">
+                    <img src="https://img.shields.io/badge/Express.js-404D59?style=for-the-badge&logo=express">
+                    <img src="https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08D">
+                </div>
+            </row>
+            </row>
+            <row class="skillrow">
+                <div class="col skillheader">Web & Database:</div>
+                <div class="col skills"><img
+                        src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
+                    <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
+                    <img src="https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white">
+                    <img
+                        src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white">
+                </div>
+            </row>
+            <row class="skillrow">
+                <div class="col skillheader">Tools & Technologies:</div>
+                <div class="col skills"><img
+                        src="https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white">
+                    <img
+                        src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=Docker&logoColor=white">
+                    <img
+                        src="https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white">
+                    <img
+                        src="images/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f506f73746d616e2d4646364333373f7374796c653d666f722d7468652d6261646765266c6f676f3d706f73746d616e266c6f676f436f6c6f723d7768697465.svg">
+                </div>
+            </row>
+            <row class="skillrow">
+                <div class="col skillheader">Currently Learning/Planning to:</div>
+                <div class="col skills">
+                    <img
+                        src="https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white">
+                    <img
+                        src="https://img.shields.io/badge/FastAPI-777BB4?style=for-the-badge&logo=fastapi&logoColor=white&color=teal">
+                    <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white">
+
+                </div>
+            </row>
+
+        </div>
+
+        <div id="social-icons">
+            <span>
+                <img class="text-image" src="images/Black-icon-Instagram-logo-transparent-PNG.png">
+                <img class="text-image" src="images/github.webp">
+                <img class="text-image" src="images/new-linkedin-logo-white-black-png.png">
+            </span>
+        </div>
+
+    </div>
+
+    <div class="container" id="card-container">
+
+        <div class="row">
+            <div class="card" style="width:90rem;">
+                <img src="images/1200px-Noun_Project_projects_icon_1327109_cc.svg.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+            <div class="card" style="width:90rem;">
+                <img src="images/1200px-Noun_Project_projects_icon_1327109_cc.svg.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <!-- Footer -->
+    <footer class="text-center text-lg-start bg-light text-muted">
+        <!-- Section: Social media -->
+
+        <!-- Section: Links  -->
+
+        <!-- Copyright -->
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+            © 2022 Copyright: Jeremy Chow
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
 </body>
 
 </html>

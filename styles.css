@@ -1,9 +1,100 @@
 body {
   text-align: center;
-  margin: auto;
-  width: 50%;
-  background-color: rgb(29, 29, 71);
-  color: white;
+  background-color: F0EBE3;
+  color: black;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
+}
+
+.navbar-custom {
+  background-color: rgb(125, 157, 156);
+}
+.container-custom {
+  background-color: rgb(228, 220, 207);
+  margin: 20px;
+}
+
+#navdiv {
+  margin-bottom: 0;
+}
+
+.navbar {
+  background-color: teal;
+  padding: 20px;
+}
+
+#main-container {
+  margin-top: 50px;
+  justify-content: center;
+  vertical-align: middle;
+}
+#card-container {
+  align-items: center;
+  justify-content: center;
+}
+
+
+#self-intro {
+  font-size: 20px;
+  padding-top: 70px;
+}
+
+
+#my-skills {
+  position: absolute;
+  margin-right: 1400px;
+}
+
+.card {
+  flex-direction: row;
+  align-items: center;
+}
+.card-title {
+  font-weight: bold;
+}
+.card img {
+  width: 30%;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: calc(0.25rem - 1px);
+}
+.skills {
+  margin-bottom: 15px;
+}
+.skillheader {
+  font-size: 20px;
+}
+
+.text-image {
+  width: 30px;
+  height: 30px;
+}
+.firstskillrow {
+  margin-bottom: 5px;
+}
+@media only screen and (max-width: 768px) {
+  a {
+    display: none;
+  }
+  .card-body {
+    padding: 0.5em 1.2em;
+  }
+  .card-body .card-text {
+    margin: 0;
+  }
+  .card img {
+    width: 50%;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .card img {
+    width: 40%;
+  }
+}
+
+#social-icons {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+footer {
+  margin-top: 50px;
 }
