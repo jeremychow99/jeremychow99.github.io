@@ -13,7 +13,7 @@
 
 <body>
     <div id="navdiv">
-        <nav class="navbar navbar-expand-lg">
+        <nav class="navbar navbar-expand-lg bg-light ">
             <a class="navbar-brand" href="#">Jeremy's Personal Page</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,13 +26,15 @@
         </nav>
     </div>
 
-    <div class="container text-center" id="main-container">
+    <div class="container text-center" id="main-container" style="background-color: lightgray; padding:20px">
         <div class="row">
             <h1>Hello there!</h1>
             <div class="col-9" id="self-intro">
 
-                I am a year 2 information systems major at SMU School of Computing of Information Systems. I aspire to be a software engineer.
-                My interests include software development & design, data anlytics and cloud computing. During my free time I watch tech-related videos, play video games, or go drinking with my friends.
+                I am a year 2 Information Systems major at SMU's School of Computing of Information Systems. I aspire to
+                be a software engineer.
+                My interests include software development & design, data anlytics and cloud computing. During my free
+                time I watch tech-related videos, play video games, or go drinking and clubbing with friends.
             </div>
             <div class="col-3">
                 <img id="profile-img" src="images/IMG_2580.jpg" width="200">
@@ -45,7 +47,7 @@
                 <div class="col skillheader">Languages & Frameworks:</div>
                 <div class="col firstskillrow">
                     <img
-                        src="https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white">
+                        src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
                     <img
                         src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white">
                     <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white">
@@ -56,7 +58,8 @@
                 </div>
                 <div class="col skills">
                     <img src="https://img.shields.io/badge/Express.js-404D59?style=for-the-badge&logo=express">
-                    <img src="https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08D">
+                    <img
+                        src="https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08D">
                 </div>
             </row>
             </row>
@@ -65,7 +68,7 @@
                 <div class="col skills"><img
                         src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
                     <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
-                    <img src="https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white">
+                    <img src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white">
                     <img
                         src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white">
                 </div>
@@ -96,42 +99,89 @@
 
         </div>
 
-        <div id="social-icons">
-            <span>
-                <img class="text-image" src="images/Black-icon-Instagram-logo-transparent-PNG.png">
-                <img class="text-image" src="images/github.webp">
-                <img class="text-image" src="images/new-linkedin-logo-white-black-png.png">
-            </span>
-        </div>
 
     </div>
 
-    <div class="container" id="card-container">
 
-        <div class="row">
-            <div class="card" style="width:90rem;">
-                <img src="images/1200px-Noun_Project_projects_icon_1327109_cc.svg.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
+    <div class="project-container">
+        <h1 style="margin-bottom: 15px;">Projects</h1>
+
+        <div class="card project-card col-6">
+            <div class="card-body">
+                <h5 class="card-title">IS216 Project</h5>
+                <p class="card-text">Career oriented web application for SMU students to network, as well as for ad-hoc
+                    events.
+                </p>
+                <p class="card-text"><span style="font-size: 20px;">Tech used:
+                        <img style="width: 100px; height: 30px;"
+                            src="https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08D">
+                        <img style="width: 120px; height: 30px;"
+                            src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white">
+                        <img style="width: 110px; height: 30px;"
+                            src="https://img.shields.io/badge/Firebase-FFDD00?style=for-the-badge&logo=firebase&logoColor=orange">
+
+                    </span> </small></p>
+                <a href="https://github.com/jeremychow99/is216-Project" type="button" class="btn btn-warning">Work in
+                    progress...</a>
             </div>
-            <div class="card" style="width:90rem;">
-                <img src="images/1200px-Noun_Project_projects_icon_1327109_cc.svg.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+
+            <img style="padding: 20px;" src="images/Screenshot 2022-10-05 at 10.10.35 PM.png" class="card-img-bottom"
+                alt="...">
+        </div>
+
+
+
+        <div class="card project-card col-6">
+            <div class="card-body">
+                <h5 class="card-title">Job Application API</h5>
+                <p class="card-text">REST API that supports login and user authentication, allowing users to manage
+                    their
+                    job applications using CRUD operations.</p>
+
+                <div class="firstskillrow">
+                    <p class="card-text"><span style="font-size: 20px;">Tech used:
+                            <img style="width: 100px; height: 30px;"
+                                src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white">
+                            <img style="width: 130px; height: 30px;"
+                                src="https://img.shields.io/badge/Express.js-404D59?style=for-the-badge&logo=express">
+                            <img style="width: 105px; height: 30px;"
+                                src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white">
+
                 </div>
+
+                <img style="width: 100px; height: 30px;"
+                    src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=Docker&logoColor=white">
+                <img style="width: 165px; height: 30px;"
+                    src="https://img.shields.io/badge/json%20web%20tokens-323330?style=for-the-badge&logo=json-web-tokens&logoColor=pink">
+                <img style="width: 110px;height: 30px;"
+                    src="https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white">
+
+                </span> </small></p>
+                <a href="https://github.com/jeremychow99/jobs-api-project" class="btn btn-dark">GitHub Repository</a>
             </div>
+            <img style="padding: 20px;" src="images/API-Development-Guide.png" class="card-img-bottom" alt="...">
+        </div>
+
+        <div class="card project-card col-6">
+            <div class="card-body">
+                <h5 class="card-title">Google Ignite Project</h5>
+                <p class="card-text"> Worked in a team to create a minimum viable product of a mobile app which addressed UN Sustainable Development Goals 12 (Sustainable Development) and 13 (Climate Action).
+                </p>
+                <p class="card-text"><span style="font-size: 20px;">Tech used:
+                        <img style="width: 100px; height: 30px;"
+                            src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white">
+                        <img style="width: 85px; height: 30px;"
+                            src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white">
+                        <img style="width: 100px; height: 30px;"
+                            src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white">
+
+                    </span> </small></p>
+                <a href="https://github.com/jeremychow99/google-ignite-project" type="button" class="btn btn-dark">GitHub Repository</a>
+            </div>
+
+            <img style="padding: 20px;" src="images/logo.jpg" class="card-img-bottom" alt="...">
         </div>
     </div>
-
-
-
 
 
 
@@ -143,9 +193,19 @@
 
         <!-- Copyright -->
         <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+            <div id="social-icons">
+                <span>
+                    <a href="https://www.instagram.com/jeremychoww/"><img class="text-image"
+                            src="images/Black-icon-Instagram-logo-transparent-PNG.png"></a>
+                    <a href="https://github.com/jeremychow99"><img class="text-image" src="images/github.webp"></a>
+                    <a href="https://www.linkedin.com/in/jeremychow99/"><img class="text-image"
+                            src="images/new-linkedin-logo-white-black-png.png"></a>
+
+                </span>
+            </div>
             © 2022 Copyright: Jeremy Chow
         </div>
-        <!-- Copyright -->
+
     </footer>
     <!-- Footer -->
 </body>
