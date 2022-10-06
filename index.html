@@ -13,13 +13,25 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Source+Code+Pro&display=swap"
         rel="stylesheet">
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script src="https://kit.fontawesome.com/dbc67ac045.js" crossorigin="anonymous"></script>
+
     <link rel="stylesheet" href="styles.css">
 </head>
 
-<body>
+<body class="body-dark">
     <div id="navdiv">
-        <nav class="navbar navbar-expand-lg bg-light ">
-            <a class="navbar-brand" href="#">Jeremy's Personal Page</a>
+        <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand navbar-Cdark" href="#">Jeremy's Personal Page</a>
+            <div>
+                <input type="checkbox" class="checkbox" id="checkbox" onchange="changeTheme()">
+                <label for="checkbox" class="checkbox-label">
+                    <i class="fas fa-sun"></i>
+                    <i class="fas fa-moon"></i>
+                    <span class="ball"></span>
+                </label>
+            </div>
+
+
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -31,8 +43,8 @@
         </nav>
     </div>
 
-    <div class="container text-center" id="main-container" style="background-color: lightgray; padding:20px">
-        <div class="row">
+    <div class="container main-cont main-container-dark text-center" id="main-container">
+        <div class="row" style="padding: 15px;">
             <h1 style="margin-bottom: 15px;">My name is Jeremy, i'm<span class="txt-rotate" data-period="2000"
                     data-rotate='[" a SMU IS undergrad. ", " an aspiring software engineer. ", " a struggling student :( "]'></span>
             </h1>
@@ -46,6 +58,7 @@
         </div>
 
         <br>
+
         <div id="skill-container">
             <row class="skillrow">
                 <div class="col skillheader">Languages & Frameworks:</div>
@@ -66,7 +79,7 @@
                         src="https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08D">
                 </div>
             </row>
-            </row>
+
             <row class="skillrow">
                 <div class="col skillheader">Web & Database:</div>
                 <div class="col skills"><img
@@ -101,16 +114,29 @@
                 </div>
             </row>
 
-        </div>
+            <br>
 
+            <div class="row" id="animation-row">
+                <lottie-player class="col-4" src="https://assets7.lottiefiles.com/packages/lf20_jjsrh4we.json"
+                    background="transparent" speed="1" style="width: 300px; height: 300px; padding: 0px;" loop autoplay>
+                </lottie-player>
+                <lottie-player class="col-4" src="https://assets7.lottiefiles.com/packages/lf20_VqELsc.json"
+                    background="transparent" speed="1" style="width: 300px; height: 300px;" loop autoplay>
+                </lottie-player>
+                <lottie-player class="col-4" src="https://assets7.lottiefiles.com/packages/lf20_yaindsk9.json"
+                    background="transparent" speed="10" style="width: 300px; height: 300px;" loop autoplay>
+                </lottie-player>
+            </div>
+
+        </div>
+    </div>
 
     </div>
 
-
-    <div class="project-container">
+    <div class="proj-cont project-container-dark">
         <h1 style="margin-bottom: 15px;">Projects</h1>
 
-        <div class="card project-card col-6">
+        <div class="card project-card-dark col-6">
             <div class="card-body">
                 <h5 class="card-title">IS216 Project</h5>
                 <p class="card-text">Career oriented web application for SMU students to network, as well as for ad-hoc
@@ -136,7 +162,7 @@
 
 
 
-        <div class="card project-card col-6">
+        <div class="card project-card-dark col-6">
             <div class="card-body">
                 <h5 class="card-title">Job Application API</h5>
                 <p class="card-text">REST API that supports login and user authentication, allowing users to manage
@@ -162,14 +188,14 @@
                     src="https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white">
 
                 </span> </small></p>
-                <a href="https://github.com/jeremychow99/jobs-api-project" class="btn btn-dark">GitHub Repository</a>
+                <a href="https://github.com/jeremychow99/jobs-api-project" class="btn btn-primary">GitHub Repository</a>
             </div>
             <lottie-player src="https://assets6.lottiefiles.com/packages/lf20_OQr8Ln0OCT.json" background="transparent"
                 speed="1" style="width: 300px; height: 300px;" loop autoplay></lottie-player>
 
         </div>
 
-        <div class="card project-card col-6">
+        <div class="card project-card-dark col-6">
             <div class="card-body">
                 <h5 class="card-title">Google Ignite Project</h5>
                 <p class="card-text"> Worked in a team to create a minimum viable product of a mobile app which
@@ -185,7 +211,7 @@
 
                     </span> </small></p>
                 <a href="https://github.com/jeremychow99/google-ignite-project" type="button"
-                    class="btn btn-dark">GitHub Repository</a>
+                    class="btn btn-primary">GitHub Repository</a>
             </div>
 
             <lottie-player src="https://assets3.lottiefiles.com/packages/lf20_PdLZTPBdLe.json" background="transparent"
